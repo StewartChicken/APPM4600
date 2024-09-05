@@ -1,0 +1,1 @@
+This repository contains work from CU Boulder's APPM 4600, Numerical Methods and Scientific Computing course. 
