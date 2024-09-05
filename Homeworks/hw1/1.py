@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Define the polynomial (x + 2)^9
 condensed_polynomial = np.poly1d([1, -2]) # Coefficients of condensed form
-expanded_polynomial = np.poly1d([1, -18, 144, -672, 2016, -4032, 5376, -4608, 2304, -512])  # Start with x^0
+expanded_polynomial = np.poly1d([1, -18, 144, -672, 2016, -4032, 5376, -4608, 2304, -512])  # Start with x^0 - Coefficients of expanded form
 
 # Define the domain from 1.920 to 2.080 with a step of 0.001
 domain = np.arange(1.920, 2.080, 0.001)
