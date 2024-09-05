@@ -11,7 +11,7 @@ domain = np.arange(1.920, 2.080, 0.001)
 
 # Evaluate the polynomial over the domain
 condensed_values = (condensed_polynomial(domain)**9) # Condensed
-expanded_values = expanded_polynomial(domain)
+expanded_values = expanded_polynomial(domain) # Expanded
 
 # Plotting the polynomial evaluation
 plt.figure(figsize=(10, 6))
