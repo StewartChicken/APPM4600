@@ -9,3 +9,4 @@ def aitken(approximations):
 
     for i in range(len(approximations)- 2):
         new_approximations.append(aitken_helper(approximations[i], approximations[i+1], approximations[i+2]))
+
